@@ -12,22 +12,22 @@ public class Pilote
     public Pilote()
     {
         // initialisation des variables d'instance
-        name = "Anonyme";
-        ecurie = null;
+        this.name = "Anonyme";
+        this.ecurie = null;
     }
     
     public void setName(String s)
     {
-        name = s;
+        this.name = s;
     }
     
     public String getName()
     {
-        return name;
+        return this.name;
     }
 
 	public Ecurie getEcurie() {
-		return ecurie;
+		return this.ecurie;
 	}
 
 	public void setEcurie(Ecurie ecurie) {
